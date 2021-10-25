@@ -2,7 +2,7 @@ from selenium import webdriver
 ZHIHU_ANSWEROR_PAGE = "https://www.zhihu.com/org/datafuntalk" 
 CLOSE_XPATH = "/html/body/div[4]/div/div/div/div[2]/button"
 CHROMEDRIVER_PATH = "/Users/xiuminke/Downloads/chromedriver"
-SCROLL_TIMES = 100 ## how many times the scroll action will be done. 
+SCROLL_TIMES = 150 ## how many times the scroll action will be done. 
 
 browser=webdriver.Chrome(CHROMEDRIVER_PATH) ## initiate a browser.
 browser.get(ZHIHU_ANSWEROR_PAGE) ## get the page.
